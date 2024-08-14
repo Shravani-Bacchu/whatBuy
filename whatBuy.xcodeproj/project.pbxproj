@@ -14,6 +14,9 @@
 		BD8BFF242C6B6EE600327018 /* whatBuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF232C6B6EE600327018 /* whatBuyTests.swift */; };
 		BD8BFF2E2C6B6EE600327018 /* whatBuyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF2D2C6B6EE600327018 /* whatBuyUITests.swift */; };
 		BD8BFF302C6B6EE600327018 /* whatBuyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF2F2C6B6EE600327018 /* whatBuyUITestsLaunchTests.swift */; };
+		BD8BFF3D2C6B71FE00327018 /* mapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF3C2C6B71FE00327018 /* mapPage.swift */; };
+		BD8BFF3F2C6B734500327018 /* foodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF3E2C6B734500327018 /* foodPage.swift */; };
+		BD8BFF412C6B73CA00327018 /* transportationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BFF402C6B73CA00327018 /* transportationPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BD8BFF292C6B6EE600327018 /* whatBuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whatBuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8BFF2D2C6B6EE600327018 /* whatBuyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyUITests.swift; sourceTree = "<group>"; };
 		BD8BFF2F2C6B6EE600327018 /* whatBuyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatBuyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD8BFF3C2C6B71FE00327018 /* mapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapPage.swift; sourceTree = "<group>"; };
+		BD8BFF3E2C6B734500327018 /* foodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodPage.swift; sourceTree = "<group>"; };
+		BD8BFF402C6B73CA00327018 /* transportationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transportationPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				BD8BFF122C6B6EE300327018 /* whatBuyApp.swift */,
 				BD8BFF142C6B6EE300327018 /* ContentView.swift */,
+				BD8BFF402C6B73CA00327018 /* transportationPage.swift */,
+				BD8BFF3E2C6B734500327018 /* foodPage.swift */,
+				BD8BFF3C2C6B71FE00327018 /* mapPage.swift */,
 				BD8BFF162C6B6EE500327018 /* Assets.xcassets */,
 				BD8BFF182C6B6EE500327018 /* Preview Content */,
 			);
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8BFF152C6B6EE300327018 /* ContentView.swift in Sources */,
+				BD8BFF412C6B73CA00327018 /* transportationPage.swift in Sources */,
 				BD8BFF132C6B6EE300327018 /* whatBuyApp.swift in Sources */,
+				BD8BFF3F2C6B734500327018 /* foodPage.swift in Sources */,
+				BD8BFF3D2C6B71FE00327018 /* mapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
