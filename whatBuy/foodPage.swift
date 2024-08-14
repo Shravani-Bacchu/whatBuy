@@ -15,7 +15,6 @@ struct foodPage: View {
                 .fontWeight(.bold)
             Spacer()
         }
-var food = ["Daylesford Organic","Daisy Green","Kin Cafe","Jikoni","Café Van Gogh","Flat Earth Pizza"]
     }
 }
 
